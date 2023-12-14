@@ -1,7 +1,7 @@
 import React from 'react';
 
-import ToggleButton from '../ToggleButton';
 import ButtonRow from '../ButtonRow';
+import ToggleButton from '../ToggleButton';
 
 import styles from './ControlPane.module.css';
 

@@ -49,3 +49,38 @@
   height: 40%;
   background-color: hsl(195deg, 20%, 86%);
 }
+
+
+@media (max-width: 400px) {
+  .header {
+    display: none;
+  }
+
+  .controlColumn {
+    display: flex;
+    position: relative;
+    top: 60%;
+    z-index:10;
+    width: 100%;
+    overflow-y: auto;
+    /* border: 3px solid; */
+  }
+
+  .characterEditor {
+    height: 100%;
+  }
+
+  .maxWidthWrapper {
+    height: 100%;
+  }
+
+  .characterWrapper {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left:auto;
+  }
+
+  
+
+}

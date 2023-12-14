@@ -12,6 +12,20 @@
   margin-bottom: 32px;
 }
 
+@media screen and (max-width: 400px) {
+  .controlPane {
+    margin-left: 10px;
+    margin-bottom: 0;
+    opacity: 0.9;
+  }
+
+  .controlPane:first-child {
+    margin-left: 0;
+  }
+
+
+}
+
 .title {
   margin: 0;
   /* Optical centering */
